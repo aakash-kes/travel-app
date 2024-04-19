@@ -68,3 +68,40 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+import Container from 'react-bootstrap/Container'
+import Nav from 'react-bootstrap/Nav'
+import Navbar from 'react-bootstrap/Navbar'
+import NavDropdown from 'react-bootstrap/NavDropdown'
+
+const HeaderNavbar = () => {
+  const navLinkStyle = ({ isActive }) => {
+    return {
+      fontWeight: isActive ? 'bold' : 'normal',
+      textDecoration: isActive ? 'none' : 'underline',
+    }
+  }
+
+  return (
+   
+  )
+}
+
+export default HeaderNavbar
+
+
+
+// import { swimmers, climbing } from '../../ImagesVideos/food.jpg'
+import swimmers from '../../ImagesVideos/swimmers.jpg'
+import climbing from '../../ImagesVideos/climbing.jpg'
+import basketball from '../../ImagesVideos/basketball.jpeg'
+
+const Slider = () => {
+  return (
+    
+  )
+}
+
+export default Slider

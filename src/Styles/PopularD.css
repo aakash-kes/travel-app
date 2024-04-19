@@ -1,0 +1,43 @@
+.photo {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+.text {
+    position: absolute;
+    left: 15px;
+    top: 45px;
+    z-index: -2;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.imgCssP:hover {
+    /* opacity: 0.5; */
+    transition: transform 1s;
+
+    transform: scale(1.05);
+    transform: scale(1.05);
+    transform: scale(1.05);
+
+}
+
+.banner-card {
+    position: relative;
+    
+}
+
+.banner-text {
+    position: absolute;
+    bottom: 0;
+    color: white;
+       padding: 25px;
+}
+
+:any-link{
+    color: white;
+}
