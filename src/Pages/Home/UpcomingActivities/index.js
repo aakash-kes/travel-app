@@ -55,139 +55,149 @@ const UpcomingActivities = () => {
       <h1 style={{ textAlign: "center", color: "red", margin: "20px" }}>
         <u> UpComing Activities</u>
       </h1>
+      <div style={{ margin: "32px"  ,paddingLeft: "3%",}}>
+        <Carousel style responsive={responsive}>
+          <Card style={{ width: "18rem", height: "30rem" }}>
+            <Card.Img
+              className="imgCssU"
+              variant="top"
+              src={BambooBoating}
+              height="50%"
+            />
+            <Card.Body>
+              <Card.Title>Bamboo Boating</Card.Title>
+              <Card.Text>
+                They are constructed entirely from locally sourced bamboo,
+                harnessing the abundant bamboo resources of Assam
+              </Card.Text>
+              <Card.Title>₹ 5,000 </Card.Title>
 
-      <Carousel responsive={responsive}>
-        <Card style={{ width: "18rem", height: "25rem" }}>
-          <Card.Img
-            className="imgCssU"
-            variant="top"
-            src={BambooBoating}
-            height="50%"
-          />
-          <Card.Body>
-            <Card.Title>Bamboo Boating</Card.Title>
-            <Card.Text>
-              They are constructed entirely from locally sourced bamboo,
-              harnessing the abundant bamboo resources of Assam
-            </Card.Text>
-            <Button variant="success">Purchase</Button>
-          </Card.Body>
-        </Card>
+              <Button variant="success">Purchase</Button>
+            </Card.Body>
+          </Card>
 
-        <Card style={{ width: "18rem", height: "25rem" }}>
-          <Card.Img
-            className="imgCssU"
-            variant="top"
-            src={Bunjee}
-            height="50%"
-          />
-          <Card.Body>
-            <Card.Title>Bungee jumping</Card.Title>
-            <Card.Text>
-              Bungee jumping is an action-filled recreational activity that
-              involves head-first jumping
-            </Card.Text>
-            <Button variant="success">Purchase</Button>
-          </Card.Body>
-        </Card>
+          <Card style={{ width: "18rem", height: "30rem" }}>
+            <Card.Img
+              className="imgCssU"
+              variant="top"
+              src={Bunjee}
+              height="50%"
+            />
+            <Card.Body>
+              <Card.Title>Bungee jumping</Card.Title>
+              <Card.Text>
+                Bungee jumping is an action-filled recreational activity that
+                involves head-first jumping
+              </Card.Text>
+              <Card.Title>₹ 3,000 </Card.Title>
+              <Button variant="success">Purchase</Button>
+            </Card.Body>
+          </Card>
 
-        <Card style={{ width: "18rem", height: "25rem" }}>
-          <Card.Img
-            className="imgCssU"
-            variant="top"
-            src={camelWalk}
-            height="50%"
-          />
-          <Card.Body>
-            <Card.Title> Camel rides</Card.Title>
-            <Card.Text>
-              Camel rides are a kind of activity everybody does when they visit
-              the Middle East.
-            </Card.Text>
-            <Button variant="success">Purchase</Button>
-          </Card.Body>
-        </Card>
-        <Card style={{ width: "18rem", height: "25rem" }}>
-          <Card.Img
-            className="imgCssU"
-            variant="top"
-            src={Camping}
-            height="50%"
-          />
-          <Card.Body>
-            <Card.Title>Camping</Card.Title>
-            <Card.Text>
-              Camping activity that involves staying the night/more than one
-              night in a protective shelter
-            </Card.Text>
-            <Button variant="success">Purchase</Button>
-          </Card.Body>
-        </Card>
-        <Card style={{ width: "18rem", height: "25rem" }}>
-          <Card.Img
-            className="imgCssU"
-            variant="top"
-            src={MotorRiding}
-            height="50%"
-          />
-          <Card.Body>
-            <Card.Title>motor Ride</Card.Title>
-            <Card.Text>
-              the activity or hobby of travelling on a motorcycle.
-            </Card.Text>
-            <Button variant="success">Purchase</Button>
-          </Card.Body>
-        </Card>
-        <Card style={{ width: "18rem", height: "25rem" }}>
-          <Card.Img
-            className="imgCssU"
-            variant="top"
-            src={Rafting}
-            height="50%"
-          />
-          <Card.Body>
-            <Card.Title>Rafting</Card.Title>
-            <Card.Text>
-              Rafting and whitewater rafting are recreational outdoor activities
-              which use an inflatable raft to navigate a river.
-            </Card.Text>
-            <Button variant="success">Purchase</Button>
-          </Card.Body>
-        </Card>
+          <Card style={{ width: "18rem", height: "30rem" }}>
+            <Card.Img
+              className="imgCssU"
+              variant="top"
+              src={camelWalk}
+              height="50%"
+            />
+            <Card.Body>
+              <Card.Title> Camel rides</Card.Title>
+              <Card.Text>
+                Camel rides are a kind of activity everybody does when they
+                visit the Middle East.
+              </Card.Text>
+              <Card.Title>₹ 1,000 </Card.Title>
+              <Button variant="success">Purchase</Button>
+            </Card.Body>
+          </Card>
+          <Card style={{ width: "18rem", height: "30rem" }}>
+            <Card.Img
+              className="imgCssU"
+              variant="top"
+              src={Camping}
+              height="50%"
+            />
+            <Card.Body>
+              <Card.Title>Camping</Card.Title>
+              <Card.Text>
+                Camping activity that involves staying the night/more than one
+                night in a protective shelter
+              </Card.Text>
+              <Card.Title>₹ 3,000 </Card.Title>
+              <Button variant="success">Purchase</Button>
+            </Card.Body>
+          </Card>
+          <Card style={{ width: "18rem", height: "30rem" }}>
+            <Card.Img
+              className="imgCssU"
+              variant="top"
+              src={MotorRiding}
+              height="50%"
+            />
+            <Card.Body>
+              <Card.Title>motor Ride</Card.Title>
+              <Card.Text>
+                the activity or hobby of travelling on a motorcycle.
+              </Card.Text>
+              <Card.Title>₹ 10,000 </Card.Title>
+              <Button variant="success">Purchase</Button>
+            </Card.Body>
+          </Card>
+          <Card style={{ width: "18rem", height: "30rem" }}>
+            <Card.Img
+              className="imgCssU"
+              variant="top"
+              src={Rafting}
+              height="50%"
+            />
+            <Card.Body>
+              <Card.Title>Rafting</Card.Title>
+              <Card.Text>
+                Rafting and whitewater rafting are recreational outdoor
+                activities which use an inflatable raft to navigate a river.
+              </Card.Text>
+              <Card.Title>₹ 5,000 </Card.Title>
+              <Button variant="success">Purchase</Button>
+            </Card.Body>
+          </Card>
 
-        <Card style={{ width: "18rem", height: "25rem" }}>
-          <Card.Img
-            className="imgCssU"
-            variant="top"
-            src={ropeMountain}
-            height="50%"
-          />
-          <Card.Body>
-            <Card.Title>Mountaineering</Card.Title>
-            <Card.Text>
-              Mountaineering, or mountain climbing, is the sport of reaching, or
-              trying to reach, high points in mountainous areas.
-            </Card.Text>
-            <Button variant="success">Purchase</Button>
-          </Card.Body>
-        </Card>
-        <Card style={{ width: "18rem", height: "25rem" }}>
-          <Card.Img
-            className="imgCssU"
-            variant="top"
-            src={Trackking}
-            height="50%"
-          />
-          <Card.Body>
-            <Card.Title>Trekking</Card.Title>
-            <Card.Text>
-              Trekking is a type of outdoor adventure in which you trek through
-              forests, mountains.
-            </Card.Text>
-            <Button variant="success">Purchase</Button>
-          </Card.Body>
-        </Card>
-      </Carousel>
+          <Card style={{ width: "18rem", height: "30rem" }}>
+            <Card.Img
+              className="imgCssU"
+              variant="top"
+              src={ropeMountain}
+              height="50%"
+            />
+            <Card.Body>
+              <Card.Title>Mountaineering</Card.Title>
+              <Card.Text>
+                Mountaineering, or mountain climbing, is the sport of reaching,
+                or trying to reach, high points in mountainous areas.
+              </Card.Text>
+              <Card.Title>₹ 2,000 </Card.Title>
+              <Button variant="success">Purchase</Button>
+            </Card.Body>
+          </Card>
+          <Card style={{ width: "18rem", height: "30rem" }}>
+            <Card.Img
+              className="imgCssU"
+              variant="top"
+              src={Trackking}
+              height="50%"
+            />
+            <Card.Body>
+              <Card.Title>Trekking</Card.Title>
+              <Card.Text>
+                Trekking is a type of outdoor adventure in which you trek
+                through forests, mountains.
+              </Card.Text>
+              <Card.Title>₹ 3,000 </Card.Title>
+              <Button variant="success">Purchase</Button>
+            </Card.Body>
+          </Card>
+        </Carousel>
+      </div>
     </>
   );
 };

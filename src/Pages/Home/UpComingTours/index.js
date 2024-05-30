@@ -57,186 +57,191 @@ const UpComingTours = () => {
       <h1 style={{ textAlign: "center", color: "red", margin: "20px" }}>
         <u>UpComing Tours</u>
       </h1>
+      <div style={{ margin: "32px", paddingLeft: "3%",  }}>
+        <Carousel responsive={responsive}>
+          <Card style={{ width: "18rem", height: "30rem" }}>
+            <Card.Img
+              className="imgCssUT"
+              variant="top"
+              height="50%"
+              src={kerla}
+            />
+            <Card.Body>
+              <Card.Title style={{ color: "red" }}>Kerala Tourism</Card.Title>
+              <Card.Text>
+                Palm-lined beaches, thrilling wildlife tours, breathtaking.
+              </Card.Text>
 
-      <Carousel responsive={responsive}>
-        <Card style={{ width: "18rem", height: "30rem" }}>
-          <Card.Img
-            className="imgCssUT"
-            variant="top"
-            height="50%"
-            src={kerla}
-          />
-          <Card.Body>
-            <Card.Title style={{ color: "red" }}>Kerala Tourism</Card.Title>
-            <Card.Text>
-              Palm-lined beaches, thrilling wildlife tours, breathtaking.
-            </Card.Text>
+              <Card.Title>₹ 15,000 </Card.Title>
 
-            <Card.Title>₹ 15,000 </Card.Title>
+              <Button variant="success">Purchase</Button>
+            </Card.Body>
+          </Card>
 
-            <Button variant="success">Purchase</Button>
-          </Card.Body>
-        </Card>
+          <Card style={{ width: "18rem", height: "30rem" }}>
+            <Card.Img
+              className="imgCssUT"
+              variant="top"
+              height="50%"
+              src={Agra}
+            />
+            <Card.Body>
+              <Card.Title style={{ color: "red" }}>Agra Tourism</Card.Title>
+              <Card.Text>
+                Agra is one of the most populous cities in Uttar Pradesh.
+              </Card.Text>
+              <Card.Title>₹ 10,000 </Card.Title>
 
-        <Card style={{ width: "18rem", height: "30rem" }}>
-          <Card.Img
-            className="imgCssUT"
-            variant="top"
-            height="50%"
-            src={Agra}
-          />
-          <Card.Body>
-            <Card.Title style={{ color: "red" }}>Agra Tourism</Card.Title>
-            <Card.Text>
-              Agra is one of the most populous cities in Uttar Pradesh.
-            </Card.Text>
-            <Card.Title>₹ 10,000 </Card.Title>
+              <Button variant="success">Purchase</Button>
+            </Card.Body>
+          </Card>
 
-            <Button variant="success">Purchase</Button>
-          </Card.Body>
-        </Card>
+          <Card style={{ width: "18rem", height: "30rem" }}>
+            <Card.Img
+              className="imgCssUT"
+              variant="top"
+              height="50%"
+              src={Chitkul}
+            />
+            <Card.Body>
+              <Card.Title style={{ color: "red" }}>Chitkul Tourism</Card.Title>
+              <Card.Text>
+                11 Exciting Things To Do In Chitkul For A Good Time In 2023.
+              </Card.Text>
+              <Card.Title>₹ 12,000 </Card.Title>
 
-        <Card style={{ width: "18rem", height: "30rem" }}>
-          <Card.Img
-            className="imgCssUT"
-            variant="top"
-            height="50%"
-            src={Chitkul}
-          />
-          <Card.Body>
-            <Card.Title style={{ color: "red" }}>Chitkul Tourism</Card.Title>
-            <Card.Text>
-              11 Exciting Things To Do In Chitkul For A Good Time In 2023.
-            </Card.Text>
-            <Card.Title>₹ 12,000 </Card.Title>
+              <Button variant="success">Purchase</Button>
+            </Card.Body>
+          </Card>
+          <Card style={{ width: "18rem", height: "30rem" }}>
+            <Card.Img
+              className="imgCssUT"
+              variant="top"
+              height="50%"
+              src={KhajurahoMP}
+            />
+            <Card.Body>
+              <Card.Title style={{ color: "red" }}>
+                Khajuraho Tourism
+              </Card.Title>
+              <Card.Text>
+                The Khajuraho Group of Monuments is a group of Hindu temples.
+              </Card.Text>
+              <Card.Title>₹ 14,000 </Card.Title>
 
-            <Button variant="success">Purchase</Button>
-          </Card.Body>
-        </Card>
-        <Card style={{ width: "18rem", height: "30rem" }}>
-          <Card.Img
-            className="imgCssUT"
-            variant="top"
-            height="50%"
-            src={KhajurahoMP}
-          />
-          <Card.Body>
-            <Card.Title style={{ color: "red" }}>Khajuraho Tourism</Card.Title>
-            <Card.Text>
-              The Khajuraho Group of Monuments is a group of Hindu temples.
-            </Card.Text>
-            <Card.Title>₹ 14,000 </Card.Title>
+              <Button variant="success">Purchase</Button>
+            </Card.Body>
+          </Card>
+          <Card style={{ width: "18rem", height: "30rem" }}>
+            <Card.Img
+              className="imgCssUT"
+              variant="top"
+              height="50%"
+              src={Sikkim}
+            />
+            <Card.Body>
+              <Card.Title style={{ color: "red" }}>Sikkim Tourism</Card.Title>
+              <Card.Text>
+                "Sikkim, is a breath-taking destination with majestic mountains.
+              </Card.Text>
+              <Card.Title>₹ 15,000 </Card.Title>
 
-            <Button variant="success">Purchase</Button>
-          </Card.Body>
-        </Card>
-        <Card style={{ width: "18rem", height: "30rem" }}>
-          <Card.Img
-            className="imgCssUT"
-            variant="top"
-            height="50%"
-            src={Sikkim}
-          />
-          <Card.Body>
-            <Card.Title style={{ color: "red" }}>Sikkim Tourism</Card.Title>
-            <Card.Text>
-              "Sikkim, is a breath-taking destination with majestic mountains.
-            </Card.Text>
-            <Card.Title>₹ 15,000 </Card.Title>
+              <Button variant="success">Purchase</Button>
+            </Card.Body>
+          </Card>
+          <Card style={{ width: "18rem", height: "30rem" }}>
+            <Card.Img
+              className="imgCssUT"
+              variant="top"
+              height="50%"
+              src={Telgue}
+            />
+            <Card.Body>
+              <Card.Title style={{ color: "red" }}>Telgue Tourism </Card.Title>
+              <Card.Text>
+                Travel is the movement of people between distant geographical
+                locations.
+              </Card.Text>
+              <Card.Title>₹ 20,000 </Card.Title>
 
-            <Button variant="success">Purchase</Button>
-          </Card.Body>
-        </Card>
-        <Card style={{ width: "18rem", height: "30rem" }}>
-          <Card.Img
-            className="imgCssUT"
-            variant="top"
-            height="50%"
-            src={Telgue}
-          />
-          <Card.Body>
-            <Card.Title style={{ color: "red" }}>Telgue Tourism </Card.Title>
-            <Card.Text>
-              Travel is the movement of people between distant geographical
-              locations.
-            </Card.Text>
-            <Card.Title>₹ 20,000 </Card.Title>
+              <Button variant="success">Purchase</Button>
+            </Card.Body>
+          </Card>
 
-            <Button variant="success">Purchase</Button>
-          </Card.Body>
-        </Card>
+          <Card style={{ width: "18rem", height: "30rem" }}>
+            <Card.Img
+              className="imgCssUT"
+              variant="top"
+              height="50%"
+              src={Rajasthan}
+            />
+            <Card.Body>
+              <Card.Title style={{ color: "red" }}>
+                Rajasthan Tourism{" "}
+              </Card.Title>
+              <Card.Text>
+                Popular tourist destinations in Rajasthan include Jaipur.
+              </Card.Text>
+              <Card.Title>₹ 10,000 </Card.Title>
 
-        <Card style={{ width: "18rem", height: "30rem" }}>
-          <Card.Img
-            className="imgCssUT"
-            variant="top"
-            height="50%"
-            src={Rajasthan}
-          />
-          <Card.Body>
-            <Card.Title style={{ color: "red" }}>Rajasthan Tourism </Card.Title>
-            <Card.Text>
-              Popular tourist destinations in Rajasthan include Jaipur.
-            </Card.Text>
-            <Card.Title>₹ 10,000 </Card.Title>
+              <Button variant="success">Purchase</Button>
+            </Card.Body>
+          </Card>
+          <Card style={{ width: "18rem", height: "30rem" }}>
+            <Card.Img
+              className="imgCssUT"
+              variant="top"
+              height="50%"
+              src={Kashmir}
+            />
+            <Card.Body>
+              <Card.Title style={{ color: "red" }}>Kashmir Tourism</Card.Title>
+              <Card.Text>
+                Kashmir is also one of the few places in India.
+              </Card.Text>
+              <Card.Title>₹ 15,000 </Card.Title>
 
-            <Button variant="success">Purchase</Button>
-          </Card.Body>
-        </Card>
-        <Card style={{ width: "18rem", height: "30rem" }}>
-          <Card.Img
-            className="imgCssUT"
-            variant="top"
-            height="50%"
-            src={Kashmir}
-          />
-          <Card.Body>
-            <Card.Title style={{ color: "red" }}>Kashmir Tourism</Card.Title>
-            <Card.Text>
-              Kashmir is also one of the few places in India.
-            </Card.Text>
-            <Card.Title>₹ 15,000 </Card.Title>
+              <Button variant="success">Purchase</Button>
+            </Card.Body>
+          </Card>
+          <Card style={{ width: "18rem", height: "30rem" }}>
+            <Card.Img
+              className="imgCssUT"
+              variant="top"
+              height="50%"
+              src={Amritsar}
+            />
+            <Card.Body>
+              <Card.Title style={{ color: "red" }}>Amritsar Tourism</Card.Title>
+              <Card.Text>
+                Amritsar is one of the largest cities in the Indian state .
+              </Card.Text>
+              <Card.Title>₹ 10,000 </Card.Title>
 
-            <Button variant="success">Purchase</Button>
-          </Card.Body>
-        </Card>
-        <Card style={{ width: "18rem", height: "30rem" }}>
-          <Card.Img
-            className="imgCssUT"
-            variant="top"
-            height="50%"
-            src={Amritsar}
-          />
-          <Card.Body>
-            <Card.Title style={{ color: "red" }}>Amritsar Tourism</Card.Title>
-            <Card.Text>
-              Amritsar is one of the largest cities in the Indian state .
-            </Card.Text>
-            <Card.Title>₹ 10,000 </Card.Title>
+              <Button variant="success">Purchase</Button>
+            </Card.Body>
+          </Card>
+          <Card style={{ width: "18rem", height: "30rem" }}>
+            <Card.Img
+              className="imgCssUT"
+              variant="top"
+              height="50%"
+              src={Himachalpradesh}
+            />
+            <Card.Body>
+              <Card.Title style={{ color: "red" }}>
+                Himachal Pradesh Tourism
+              </Card.Title>
+              <Card.Text>
+                The top tourist places of Himachal Pradesh are Shimla,.
+              </Card.Text>
+              <Card.Title>₹ 25,000 </Card.Title>
 
-            <Button variant="success">Purchase</Button>
-          </Card.Body>
-        </Card>
-        <Card style={{ width: "18rem", height: "30rem" }}>
-          <Card.Img
-            className="imgCssUT"
-            variant="top"
-            height="50%"
-            src={Himachalpradesh}
-          />
-          <Card.Body>
-            <Card.Title style={{ color: "red" }}>
-              Himachal Pradesh Tourism
-            </Card.Title>
-            <Card.Text>
-              The top tourist places of Himachal Pradesh are Shimla,.
-            </Card.Text>
-            <Card.Title>₹ 25,000 </Card.Title>
-
-            <Button variant="success">Purchase</Button>
-          </Card.Body>
-        </Card>
-      </Carousel>
+              <Button variant="success">Purchase</Button>
+            </Card.Body>
+          </Card>
+        </Carousel>
+      </div>
     </>
   );
 };

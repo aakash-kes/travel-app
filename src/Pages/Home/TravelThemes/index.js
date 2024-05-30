@@ -36,7 +36,10 @@ const TravelThemes = () => {
       <h1 style={{ textAlign: "center", color: "red", margin: "20px" }}>
         <u>Travel Themes</u>
       </h1>
-      <div className="SpaceCss">
+      <div
+        style={{ margin: "32px", paddingLeft: "3%" }}
+        className="SpaceCss"
+      >
         <Carousel responsive={responsive}>
           <Card style={{ width: "20rem", height: "18rem" }}>
             <Card.Img

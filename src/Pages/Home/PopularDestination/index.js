@@ -18,7 +18,7 @@ import Srinagar2 from "../../../Images/Srinagar2.jpg";
 import Safdarjung from "../../../Images/Safdarjung Tomb.jpg";
 import Bangalore from "../../../Images/Gate of Palace in Bangalore .jpg";
 import mussorrie from "../../../Images/mussorrie.jpg";
-
+import Lakshadweep from "../../../Images/Lakshadweep.jpg";
 import "../../../Styles/PopularD.css";
 
 const PopularDestination = () => {
@@ -29,85 +29,76 @@ const PopularDestination = () => {
       </h1>
 
       <Container fluid="md">
-        <div style={{ height: "500px" }} className="border border-white">
-          <Row className="mt-4">
-            <Col lg={6}>
-              <div className="banner-card">
-                <img
-                  className="imgCssP"
-                  src={Kasol}
-                  alt=" "
-                  width={"100%"}
-                  height={"450px"}
-                />
-                <div className="banner-text">
-                  <h2>The Kasol Trip</h2>
-                  <a href="https://en.wikipedia.org/wiki/Kasol">Visit Here</a>
-                </div>
+        <Container>
+          <Row>
+            <Col style={{ position: "relative" }} lg={6} md={6} sm={12}>
+              {" "}
+              <img
+                className="imgCssP"
+                src={Kasol}
+                alt=" "
+                width={"100%"}
+                height={"450px"}
+              />
+              <div className="banner-text">
+                <h2>The Kasol Trip</h2>
+                <a href="https://en.wikipedia.org/wiki/Kasol">Visit Here</a>
               </div>
             </Col>
 
-            <Col lg={6}>
-              <Col>
-                <div className="banner-card">
+            <Col lg={6} md={6} sm={12}>
+              <Col style={{ position: "relative" }} lg={12} md={6} sm={12}>
+                <img
+                  className="imgCssP"
+                  src={LehLadhakPD}
+                  alt=" "
+                  width={"100%"}
+                  height={"213px"}
+                />
+                <div className="banner-text">
+                  <h2>The Leh Ladakh</h2>
+                  <a href="https://en.wikipedia.org/wiki/Leh#:~:text=It%20is%20the%20largest%20city,the%20Potala%20Palace%20in%20Tibet.">
+                    Visit Here
+                  </a>
+                </div>
+              </Col>
+
+              <Row className="mt-4">
+                <Col style={{ position: "relative" }} lg={6} md={6} sm={12}>
                   <img
                     className="imgCssP"
-                    src={LehLadhakPD}
+                    src={Kashmir2}
+                    alt=" "
+                    width={"100%"}
+                    height={"213px"}
+                  />
+
+                  <div className="banner-text">
+                    <h2>Kashmir</h2>
+                    <a href="https://en.wikipedia.org/wiki/Kashmir">
+                      Visit Here
+                    </a>
+                  </div>
+                </Col>
+                <Col style={{ position: "relative" }} lg={6} md={6} sm={12}>
+                  <img
+                    className="imgCssP"
+                    src={Safdarjung}
                     alt=" "
                     width={"100%"}
                     height={"213px"}
                   />
                   <div className="banner-text">
-                    <h2>The Leh Ladakh</h2>
-                    <a href="https://en.wikipedia.org/wiki/Leh#:~:text=It%20is%20the%20largest%20city,the%20Potala%20Palace%20in%20Tibet.">
+                    <h2>Safdarjung</h2>
+                    <a href="https://en.wikipedia.org/wiki/Safdarjung_(Delhi)">
                       Visit Here
                     </a>
-                  </div>
-                </div>
-              </Col>
-
-              <Row className="mt-4">
-                <Col lg={6}>
-                  <div className="banner-card">
-                    <img
-                      className="imgCssP"
-                      src={Kashmir2}
-                      alt=" "
-                      width={"100%"}
-                      height={"213px"}
-                    />
-
-                    <div className="banner-text">
-                      <h2>Kashmir</h2>
-                      <a href="https://en.wikipedia.org/wiki/Kashmir">
-                        Visit Here
-                      </a>
-                    </div>
-                  </div>
-                </Col>
-                <Col lg={6}>
-                  <div className="banner-card">
-                    <img
-                      className="imgCssP"
-                      src={Safdarjung}
-                      alt=" "
-                      width={"100%"}
-                      height={"213px"}
-                    />
-                    <div className="banner-text">
-                      <h2>Safdarjung</h2>
-                      <a href="https://en.wikipedia.org/wiki/Safdarjung_(Delhi)">
-                        Visit Here
-                      </a>
-                    </div>
                   </div>
                 </Col>
               </Row>
             </Col>
           </Row>
-        </div>
 
-        <div style={{ height: "300px" }} className="border border-white">
           <Row className="mt-4">
             <Col>
               <div className="banner-card">
@@ -159,9 +150,7 @@ const PopularDestination = () => {
               </div>
             </Col>
           </Row>
-        </div>
 
-        <div style={{ height: "300px" }} className="border border-white">
           <Row className="mt-4">
             <Col lg={6}>
               <div className="banner-card">
@@ -200,86 +189,76 @@ const PopularDestination = () => {
               </Col>
             </Col>
           </Row>
-        </div>
-
-        <div style={{ height: "500px" }} className="border border-white">
+          {/* ... */}
           <Row className="mt-4">
-            <Col lg={6}>
-              <div className="banner-card">
-                <img
-                  className="imgCssP"
-                  src={Srinagar2}
-                  alt=" "
-                  width={"100%"}
-                  height={"450px"}
-                />
-                <div className="banner-text">
-                  <h2>Srinagar</h2>
-                  <a href="https://en.wikipedia.org/wiki/Srinagar">
-                    Visit Here
-                  </a>
-                </div>
+            <Col style={{ position: "relative" }} lg={6} md={6} sm={12}>
+              {" "}
+              <img
+                className="imgCssP"
+                src={Srinagar2}
+                alt=" "
+                width={"100%"}
+                height={"450px"}
+              />
+              <div className="banner-text">
+                <h2>Srinagar</h2>
+                <a href="https://en.wikipedia.org/wiki/Srinagar">Visit Here</a>
               </div>
             </Col>
 
-            <Col lg={6}>
-              <Col>
-                <div className="banner-card">
+            <Col lg={6} md={6} sm={12}>
+              <Col style={{ position: "relative" }} lg={12} md={6} sm={12}>
+                <img
+                  className="imgCssP"
+                  src={mussorrie}
+                  alt=" "
+                  width={"100%"}
+                  height={"213px"}
+                />
+                <div className="banner-text">
+                  <h2>The Queen Of Heels mussorrie</h2>
+                  <a href="https://en.wikipedia.org/wiki/Mussoorie">
+                    Visit Here
+                  </a>
+                </div>
+              </Col>
+
+              <Row className="mt-4">
+                <Col style={{ position: "relative" }} lg={6} md={6} sm={12}>
                   <img
                     className="imgCssP"
-                    src={mussorrie}
+                    src={Lakshadweep}
+                    alt=" "
+                    width={"100%"}
+                    height={"213px"}
+                  />
+
+                  <div className="banner-text">
+                    <h2>Lakshadweep</h2>
+                    <a href="https://en.wikipedia.org/wiki/Lakshadweep">
+                      Visit Here
+                    </a>
+                  </div>
+                </Col>
+                <Col style={{ position: "relative" }} lg={6} md={6} sm={12}>
+                  <img
+                    className="imgCssP"
+                    src={Valley2}
                     alt=" "
                     width={"100%"}
                     height={"213px"}
                   />
                   <div className="banner-text">
-                    <h2>The Queen Of Heels mussorrie</h2>
-                    <a href="https://en.wikipedia.org/wiki/Mussoorie">
+                    <h2>Valley</h2>
+                    <a href="https://en.wikipedia.org/wiki/Valley">
                       Visit Here
                     </a>
-                  </div>
-                </div>
-              </Col>
-
-              <Row className="mt-4">
-                <Col lg={6}>
-                  <div className="banner-card">
-                    <img
-                      className="imgCssP"
-                      src={Kashmir2}
-                      alt=" "
-                      width={"100%"}
-                      height={"213px"}
-                    />
-                    <div className="banner-text">
-                      <h2>Kashmir</h2>
-                      <a href="https://en.wikipedia.org/wiki/Kashmir">
-                        Visit Here
-                      </a>
-                    </div>
-                  </div>
-                </Col>
-                <Col lg={6}>
-                  <div className="banner-card">
-                    <img
-                      className="imgCssP"
-                      src={Valley2}
-                      alt=" "
-                      width={"100%"}
-                      height={"213px"}
-                    />
-                    <div className="banner-text">
-                      <h2>Valley</h2>
-                      <a href="https://en.wikipedia.org/wiki/Valley">
-                        Visit Here
-                      </a>
-                    </div>
                   </div>
                 </Col>
               </Row>
             </Col>
           </Row>
-        </div>
+        </Container>
       </Container>
     </>
   );

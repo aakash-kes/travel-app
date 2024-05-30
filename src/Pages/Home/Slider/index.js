@@ -2,15 +2,15 @@ import React from "react";
 
 import Carousel from "react-bootstrap/Carousel";
 
-import "../../../Styles/Slider.css";
-
 import mountain from "../../../Images/mountain.jpg";
-import parachute from "../../../Images/parachute.jpg";
 import fun from "../../../Images/fun.jpg";
 
 import manali from "../../../Images/manali.jpg";
 import goa from "../../../Images/goa.jpg";
 import camping from "../../../Images/camping.jpg";
+
+import "../../../Styles/Slider.css";
+
 
 const Slider = () => {
   return (
@@ -28,7 +28,7 @@ const Slider = () => {
           <Carousel.Caption>
             <div className="sliderText">
               <h1>
-                <u>Experience Manali</u>
+                <u>Manali</u>
               </h1>
               <p>
                 A gift of the Himalayas to the world, Manali is a beautiful
@@ -79,7 +79,6 @@ const Slider = () => {
         </Carousel.Item>
 
         <Carousel.Item>
-          {/* <ExampleCarouselImage text="First slide" /> */}
           <img
             src={camping}
             layout="fill"
